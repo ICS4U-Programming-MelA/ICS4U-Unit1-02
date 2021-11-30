@@ -1,8 +1,8 @@
 /* Allows the user to enter the mass of an object and tells them how much energy would be
  * released if it was turned into energy.
  */
+import java.util.InpuMismatchException;
 import java.util.Scanner;
-import java.util.InputMismatchException;
 
 class EinsteinEquation {
   public static void main(String[] args) {
